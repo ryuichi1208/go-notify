@@ -10,6 +10,10 @@ import (
 	// "go-notify/cmd/name"
 )
 
+type woin struct {
+	wh map[string]string
+}
+
 type withGoroutineID struct {
 	out io.Writer
 }
@@ -54,6 +58,10 @@ func checkArgs() bool {
 }
 
 func main() {
+	// who := make(map[string]string)
+	// who["w"] = "aaa"
+	// w := woin{wh: who}
+	log.Println(w)
 	log.SetOutput(&withGoroutineID{out: os.Stderr})
 	if !checkArgs() {
 		os.Exit(1)
