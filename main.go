@@ -18,9 +18,24 @@ func (w *withGoroutineID) Write(p []byte) (int, error) {
 	return w.out.Write(append(firstline[:len(firstline)-10], p...))
 }
 
+func __append() {
+	file, err := os.OpenFile("textfile.txt", os.O_RDWR|os.O_APPEND, 0666)
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+	io.WriteString(file, "Appended content\n")
+}
+
 func Exists(filename string) bool {
-	_, err := os.Stat(filename)
-	return err == nil
+	f, err := os.Stat(filename)
+	if err != nil {
+		return false
+	}
+	log.Println("FileName: ", f.Name())
+	log.Println("IsDir", f.IsDir())
+	log.Println("MODE", f.Mode())
+	return true
 }
 
 func checkArgs() bool {
@@ -33,6 +48,7 @@ func checkArgs() bool {
 		log.Fatal("File Error: ", os.Args[1])
 		return false
 	}
+
 	return true
 }
 
