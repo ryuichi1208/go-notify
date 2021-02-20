@@ -1,11 +1,22 @@
 package main
 
 import (
+	"github.com/fsnotify/fsnotify"
+	"io"
 	"log"
 	"os"
-
-	"github.com/fsnotify/fsnotify"
+	"runtime/debug"
+	"strings"
 )
+
+type withGoroutineID struct {
+	out io.Writer
+}
+
+func (w *withGoroutineID) Write(p []byte) (int, error) {
+	firstline := []byte(strings.SplitN(string(debug.Stack()), "\n", 2)[0])
+	return w.out.Write(append(firstline[:len(firstline)-10], p...))
+}
 
 func Exists(filename string) bool {
 	_, err := os.Stat(filename)
@@ -26,7 +37,8 @@ func checkArgs() bool {
 }
 
 func main() {
-	if (!checkArgs()) {
+	log.SetOutput(&withGoroutineID{out: os.Stderr})
+	if !checkArgs() {
 		os.Exit(1)
 	}
 

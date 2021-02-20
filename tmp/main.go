@@ -7,7 +7,7 @@ import (
 
 type Human struct {
 	name string
-	age int
+	age  int
 }
 
 func (h *Human) _name(n string) {

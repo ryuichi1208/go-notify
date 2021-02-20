@@ -14,7 +14,7 @@ func main() {
 	go func() {
 		for {
 			select {
-			case v:= <-ch:
+			case v := <-ch:
 				fmt.Println(v)
 			default:
 				fmt.Println("no value")
@@ -25,7 +25,7 @@ func main() {
 	// t := true
 	t := make(map[string]string)
 	t["aaa"] = "bbb"
-	ch<-t
+	ch <- t
 	wg.Wait()
 	fmt.Println("End")
 }
