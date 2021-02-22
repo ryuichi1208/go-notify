@@ -62,7 +62,6 @@ import (
 	_ "golang.org/x/oauth2"
 	_ "gopkg.in/alecthomas/kingpin.v2"
 	_ "gopkg.in/telegram-bot-api.v4"
-	_ "gopkg.in/tucnak/telebot.v2"
 )
 
 func main() {
