@@ -234,6 +234,8 @@ github.com/go-chat-bot/plugins v0.0.0-20201024114236-00ff43fcf77f h1:To58XdIp+Sw
 github.com/go-chat-bot/plugins v0.0.0-20201024114236-00ff43fcf77f/go.mod h1:Ga63x4EC4NFYr/KGzhn8D8fLj89sfJA/dpBsuowiHOQ=
 github.com/go-chat-bot/plugins v0.0.0-20210423135617-90af38949890 h1:HOa74NO1AF9Gn+K0rQInzzol0ja9NCTkX0xlfmG8PkU=
 github.com/go-chat-bot/plugins v0.0.0-20210423135617-90af38949890/go.mod h1:Ga63x4EC4NFYr/KGzhn8D8fLj89sfJA/dpBsuowiHOQ=
+github.com/go-chat-bot/plugins v0.0.0-20220303130347-e17663bb61bd h1:69jeQ/59btuZx8kF0646EBTVzmz90xBthue+Lo1Qbok=
+github.com/go-chat-bot/plugins v0.0.0-20220303130347-e17663bb61bd/go.mod h1:Ga63x4EC4NFYr/KGzhn8D8fLj89sfJA/dpBsuowiHOQ=
 github.com/go-chat-bot/plugins-br v0.0.0-20200917130500-b69d8e0f9584/go.mod h1:KU0Ieo/D/HBwPY6n3tLWanM5GemW6iWXdbgm96qRW2Q=
 github.com/go-chi/chi v1.5.3 h1:+DVDS9/D3MTbEu3WrrH3oz9oP6PlSPSNj8LLw3X17yU=
 github.com/go-chi/chi v1.5.3/go.mod h1:Q8xfe6s3fjZyMr8ZTv5jL+vxhVaFyCq2s+RvSfzTD0E=
