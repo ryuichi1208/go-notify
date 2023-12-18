@@ -832,6 +832,7 @@ github.com/volatiletech/authboss/v3 v3.0.3 h1:5tCrjQxSRC8RPkU5PBK31eSYmh9Zh/yMGS
 github.com/volatiletech/authboss/v3 v3.0.3/go.mod h1:xxNCf8P21WCCRkU/9Ih80KN98c8ffgmzOBhJ4CqU3B4=
 github.com/wtolson/go-taglib v0.0.0-20180718000046-586eb63c2628 h1:hYOyf8es7yvMucqlPar3CdobJeY0+0OmR5iT4hHYW54=
 github.com/wtolson/go-taglib v0.0.0-20180718000046-586eb63c2628/go.mod h1:p+WHGfN/a+Ol37Pm7EIOO/6Cylieb2qn1jmKfxtSsUg=
+github.com/wtolson/go-taglib v0.0.0-20210406152913-79209c280058/go.mod h1:p+WHGfN/a+Ol37Pm7EIOO/6Cylieb2qn1jmKfxtSsUg=
 github.com/xdg/scram v0.0.0-20180814205039-7eeb5667e42c/go.mod h1:lB8K/P019DLNhemzwFU4jHLhdvlE6uDZjXFejJXr49I=
 github.com/xdg/stringprep v0.0.0-20180714160509-73f8eece6fdc/go.mod h1:Jhud4/sHMO4oL310DaZAKk9ZaJ08SJfe+sJh0HrGL1Y=
 github.com/xiang90/probing v0.0.0-20190116061207-43a291ad63a2/go.mod h1:UETIi67q53MR2AWcXfiuqkDkRtnGDLqkBTpCHuJHxtU=
