@@ -54,7 +54,7 @@ require (
 	github.com/shomali11/slacker v0.0.0-20210121175324-450dc60ca4ca
 	github.com/sourcegraph/jsonrpc2 v0.0.0-20210201082850-366fbb520750 // indirect
 	github.com/spf13/viper v1.7.1
-	github.com/swithek/sessionup v1.4.0
+	github.com/swithek/sessionup v1.4.1
 	github.com/thebotguys/golang-bittrex-api v0.0.0-20210125125813-27a8629619aa // indirect
 	github.com/toorop/go-bittrex v0.0.2 // indirect
 	github.com/tosone/minimp3 v0.0.0-20200831154756-20dedd3e2ed2
