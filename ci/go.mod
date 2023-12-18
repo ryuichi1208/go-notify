@@ -21,8 +21,8 @@ require (
 	github.com/dh1tw/gosamplerate v0.1.2
 	github.com/fiore/kucoin-go v0.0.0-20190107105632-5a814c26befa // indirect
 	github.com/gen2brain/malgo v0.10.29
-	github.com/go-chat-bot/bot v0.0.0-20201004141219-763f9eeac7d5
-	github.com/go-chat-bot/plugins v0.0.0-20201024114236-00ff43fcf77f
+	github.com/go-chat-bot/bot v0.0.0-20220127123339-71bc1bfb492c
+	github.com/go-chat-bot/plugins v0.0.0-20210423135617-90af38949890
 	github.com/go-chi/chi v4.1.2+incompatible
 	github.com/go-openapi/errors v0.20.0 // indirect
 	github.com/go-openapi/runtime v0.19.26 // indirect
@@ -65,7 +65,7 @@ require (
 	github.com/yanzay/tbot/v2 v2.2.0
 	github.com/zhulik/margelet v0.0.0-20160918114701-7685d044d455
 	github.com/zpatrick/rbac v0.0.0-20180829190353-d2c4f050cf28
-	golang.org/x/oauth2 v0.0.0-20200902213428-5d25da1a8d43
+	golang.org/x/oauth2 v0.0.0-20211104180415-d3ed0bb246c8
 	gopkg.in/alecthomas/kingpin.v2 v2.2.6
 	gopkg.in/bsm/ratelimit.v1 v1.0.0-20160220154919-db14e161995a // indirect
 	gopkg.in/redis.v3 v3.6.4 // indirect
