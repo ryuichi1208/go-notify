@@ -5,7 +5,7 @@ go 1.15
 require (
 	github.com/AlekSi/pointer v1.1.0 // indirect
 	github.com/RangelReale/osin v1.0.1 // indirect
-	github.com/SonicRoshan/scope v0.0.0-20200110150516-650418ad875b
+	github.com/SonicRoshan/scope v0.0.0-20210525134824-9bbd38664a7f
 	github.com/adam-hanna/sessions v0.0.6
 	github.com/alexandre-normand/slackscot v1.48.0
 	github.com/alexedwards/scs/v2 v2.4.0
