@@ -7,7 +7,7 @@ require (
 	github.com/RangelReale/osin v1.0.1 // indirect
 	github.com/SonicRoshan/scope v0.0.0-20210525134824-9bbd38664a7f
 	github.com/adam-hanna/sessions v0.0.6
-	github.com/alexandre-normand/slackscot v1.48.0
+	github.com/alexandre-normand/slackscot v1.49.0
 	github.com/alexedwards/scs/v2 v2.4.0
 	github.com/algoGuy/EasyMIDI v0.0.0-20180322051653-708ca39e7399
 	github.com/asticode/go-astilectron-bundler v0.7.8
