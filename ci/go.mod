@@ -60,7 +60,7 @@ require (
 	github.com/tosone/minimp3 v0.0.0-20200831154756-20dedd3e2ed2
 	github.com/valyala/fasthttp v1.21.0 // indirect
 	github.com/volatiletech/authboss/v3 v3.0.3
-	github.com/wtolson/go-taglib v0.0.0-20180718000046-586eb63c2628
+	github.com/wtolson/go-taglib v0.0.0-20210406152913-79209c280058
 	github.com/xyproto/permissions2 v0.0.0-20200902135438-05029d08c3f2
 	github.com/yanzay/tbot/v2 v2.2.0
 	github.com/zhulik/margelet v0.0.0-20160918114701-7685d044d455
