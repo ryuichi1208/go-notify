@@ -97,6 +97,8 @@ github.com/alexandre-normand/slackscot v1.48.0/go.mod h1:DTi3ccjaOpjXVdajfvr4dxH
 github.com/alexedwards/scs v1.4.1 h1:/5L5a07IlqApODcEfZyMsu8Smd1S7Q4nBjEyKxIRTp0=
 github.com/alexedwards/scs/v2 v2.4.0 h1:XfnMamKnvp1muJVNr1WzikQTclopsBXWZtzz0NBjOK0=
 github.com/alexedwards/scs/v2 v2.4.0/go.mod h1:ToaROZxyKukJKT/xLcVQAChi5k6+Pn1Gvmdl7h3RRj8=
+github.com/alexedwards/scs/v2 v2.8.0 h1:h31yUYoycPuL0zt14c0gd+oqxfRwIj6SOjHdKRZxhEw=
+github.com/alexedwards/scs/v2 v2.8.0/go.mod h1:ToaROZxyKukJKT/xLcVQAChi5k6+Pn1Gvmdl7h3RRj8=
 github.com/algoGuy/EasyMIDI v0.0.0-20180322051653-708ca39e7399 h1:f0h3xTKQjrTzAUwqMJr1TY3lk3gTK8R4v7ZjcSMiwm8=
 github.com/algoGuy/EasyMIDI v0.0.0-20180322051653-708ca39e7399/go.mod h1:z6svyEeOasADFxg4gn6funK2OBjocr62B4J7ZPodCPs=
 github.com/andreyvit/diff v0.0.0-20170406064948-c7f18ee00883/go.mod h1:rCTlJbsFo29Kk6CurOXKm700vrz8f0KW0JNfpkRJY/8=
