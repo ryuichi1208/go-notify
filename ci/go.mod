@@ -14,7 +14,7 @@ require (
 	github.com/beldur/kraken-go-api-client v0.0.0-20210113103835-3f11c80eba1a // indirect
 	github.com/bitfinexcom/bitfinex-api-go v0.0.0-20210101155619-bb56f756df78 // indirect
 	github.com/bogem/id3v2 v1.2.0
-	github.com/casbin/casbin/v2 v2.23.4
+	github.com/casbin/casbin/v2 v2.85.0
 	github.com/chmike/securecookie v1.3.0
 	github.com/dghubble/gologin v2.1.0+incompatible
 	github.com/dgrr/fastws v1.0.3 // indirect
